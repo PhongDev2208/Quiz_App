@@ -1,4 +1,4 @@
-const DOMAIN = "https://quiz-json-server.vercel.app/";
+const DOMAIN = "https://fake-api-quiz.onrender.com/";
 
 export const get = async (path) => {
   const response = await fetch(DOMAIN + path);
