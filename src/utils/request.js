@@ -1,4 +1,4 @@
-const DOMAIN = "http://localhost:3002/";
+const DOMAIN = "https://quiz-json-server.vercel.app/";
 
 export const get = async (path) => {
   const response = await fetch(DOMAIN + path);
