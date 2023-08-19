@@ -1,4 +1,4 @@
-const DOMAIN = "http://localhost:3001/";
+const DOMAIN = "https://fake-api-quiz.onrender.com/";
 
 export const get = async (path) => {
   const response = await fetch(DOMAIN + path);
