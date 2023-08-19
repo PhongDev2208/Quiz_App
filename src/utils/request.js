@@ -1,4 +1,4 @@
-const DOMAIN = "http://localhost:3001/answers";
+const DOMAIN = "http://localhost:3001/";
 
 export const get = async (path) => {
   const response = await fetch(DOMAIN + path);
